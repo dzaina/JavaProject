@@ -2,22 +2,22 @@ package buildings;
 
 public class Flat {
 
-    private double place;
-    private int count;
     public static final double DEF_PLACE = 50.0;
     public static final int DEF_COUNT = 2;
+    private double place;
+    private int count;
 
-    Flat() {
+    public Flat() {
         this.place = DEF_PLACE;
         this.count = DEF_COUNT;
     }
 
-    Flat(double place){
+    public Flat(double place) {
         this.count=DEF_COUNT;
         this.place=place;
     }
 
-    Flat(double place,int count){
+    public Flat(double place, int count) {
         this.count=count;
         this.place=place;
 
